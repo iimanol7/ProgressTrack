@@ -12,7 +12,24 @@ const router = createRouter({
     {
       path: '/inicio',
       name: 'inicio',
-      component: () => import('../views/InicioView.vue'),
+      component: () => import('../views/MainView.vue'),
+      children: [
+        {
+          path: '',
+          name: 'home',
+          component: () => import('../views/InicioView.vue'),
+        },
+        {
+          path: '/rutinas',
+          name: 'rutinas',
+          component: () => import('../views/RutinasView.vue'),
+        },
+        {
+          path: '/perfil',
+          name: 'perfil',
+          component: () => import('../views/PerfilView.vue'),
+        },
+      ]
     }
     // {
     //   path: '/about',
