@@ -5,7 +5,7 @@
             <div class="h-11 w-11 bg-gray-400 rounded-full"></div>
         </header>
 
-        <section class="h-full overflow-auto px-8 py-5 relative">
+        <section class="h-full overflow-auto px-8 pt-5 relative pb-20">
             <RouterView></RouterView>
         </section>
 

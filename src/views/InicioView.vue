@@ -12,10 +12,10 @@
             <div>
                 <h3 class="text-center">Resumen de la última rutina</h3>
             </div>
-            <p class="link text-xs mt-auto text-center">Ver más</p>
+            <p class="link text-sm mt-auto text-center">Ver más</p>
         </div>
     </div>
-    <button class="btn">Comenzar Rutina</button>
+    <button class="btn_fx">Comenzar Rutina</button>
 </template>
 
 <script setup>

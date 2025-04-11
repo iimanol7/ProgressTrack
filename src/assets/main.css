@@ -26,20 +26,32 @@ h3{
     color: white;
     font-size: 18px;
 }
+h4{
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+.subtext{
+    color: #999999;
+    font-size: 12px;
+}
 .link{
     color: var(--color-blue);
     text-decoration: none;
     cursor: pointer;
 }
 
-.btn{
+.btn,.btn_fx{
     cursor: pointer;
     background-color: var(--color-blue);
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+}
+.btn_fx{
+    padding: 10px 20px;
     max-width: max-content;
     position: fixed;
     bottom: 96px;
